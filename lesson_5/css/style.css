@@ -1,0 +1,101 @@
+
+@import url("reset.css");
+
+@import url("fonts.css");
+
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 18px; 
+	color: #7d7d7d;
+}
+
+
+.title {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1,27;
+	text-transform: capitalize;
+	
+}
+
+.sub-title {
+	color: #6B77E5;
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1,27;
+}
+
+.text {
+	line-height: 1,46;
+	text-align: justify;
+}
+
+
+
+
+/* -------------------------------------------- */
+
+
+.title-article {
+	font-family: "Causten", sans-serif;
+	font-weight: 900;
+	font-size: 30px;
+	text-align: center;
+	color: midnightblue;
+}
+
+.sub-title-article {
+	font-weight: 300;
+	font-size: 25px;
+	color: darkorange;
+	font-style: oblique;
+	text-align: right;
+}
+
+.sub-sub-title-article {
+	font-family: "Causten", sans-serif;
+	font-weight: 500;
+	font-size: 23px;
+	color: violet;
+	text-decoration: underline;
+}
+
+.block1 p {
+	font-family: "Poppins", sans-serif;
+	text-shadow: 2px 5px 1px rgb(0, 255, 89);
+	text-transform: capitalize;
+	line-height: 2;
+	text-decoration: underline;
+	color: #6B77E5;
+	text-indent: 10px;
+}
+
+.block2 li{
+	font-weight: 100px;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	text-transform: uppercase;
+	color: crimson;
+}
+
+.block2 p {
+	font-family: "Causten", sans-serif;
+	font-weight: 700px;
+	color: rgba(255, 217, 0, 0.429);
+	text-align: right;
+	text-transform: lowercase;
+	font-size: 18px;
+}
+
+.block1 li{
+	font-family: "Poppins", sans-serif;
+	font-weight: 300px;
+	text-align: center;
+	text-decoration: line-through;
+	color: olive;
+}
+
