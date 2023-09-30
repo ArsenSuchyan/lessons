@@ -1,0 +1,258 @@
+
+@import url("fonts.css");
+
+
+@import url("reset.css");
+
+
+
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 18px; 
+	color: #7d7d7d;
+}
+
+
+/* -----------screen1---------- */
+
+.licensing {
+	max-width: 1248px;
+	padding: 30px 15px;
+	margin: 0 auto;
+}
+.big-title {
+	text-align: center;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 1.21; 
+	color: #37393F;
+	margin-bottom: 70px;
+}
+
+.title {
+	color: #37393F;
+	font-family: "Poppins";
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.27;
+	margin-bottom: 11px;
+}
+
+.smaller-title {
+	color: #37393F;
+	font-family: "Poppins";
+	font-size: 30px;
+	font-weight: 700;
+}
+.small-title {
+	color: #37393F;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+.green {
+	color: #40DDB6;
+	font-weight: 400;
+}
+
+.last .green {
+	font-weight: 500;
+}
+
+
+.rectangle {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background-color: #40DDB6;
+	margin-right: 6px;
+}
+
+.text {
+	line-height: 1.46;
+}
+
+.icons-graphics .text {
+	margin-bottom: 32px;
+}
+
+.photography .text {
+	margin-bottom: 24px;
+}
+
+.photography h4 {
+	margin-bottom: 8px;
+}
+
+.icons-graphics, .photography {
+	margin-bottom: 100px;
+}
+
+.green-text {
+	color: #40DDB6;
+}
+
+
+/* -----------screen2---------- */
+
+
+.project-information {
+	max-width: 860px;
+	padding: 30px 15px;
+	margin: 0 auto;
+}
+
+.project-information .title {
+	margin-bottom: 13px;
+}
+
+
+.project-information .text p, ul, ol, li {
+	margin-bottom: 35px;
+}
+
+ul li {
+	margin-left: 43px;
+}
+
+ol li {
+	margin-left: 16px;
+}
+
+
+/* -----------screen3---------- */
+
+
+.clothing {
+	max-width: 1270px;
+	padding: 30px 15px;
+	margin: 0 auto;
+}
+.clothing-title {
+	color: #3C4242;
+	font-family: "Core Sans C";
+	font-size: 28px;
+	line-height: 1.2; 
+	letter-spacing: 0.56px;
+	margin-bottom: 30px;
+}
+.violet {
+	display: inline-block;
+	width: 6px;
+	height: 28px;
+	background-color: #8A33FD;
+	margin-right: 15px;
+	border-radius: 10px;
+}
+.clothing-sub-title {
+	color: #807D7E;
+	font-family: "Core Sans C";
+	font-size: 20px;
+	line-height: 1.67; 
+	letter-spacing: 0.4px;
+	margin-bottom: 25px;
+}
+.clothing-text {
+	color: #807D7E;
+	font-family: "Causten";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.67; 
+	letter-spacing: 0.4px;
+	margin-bottom: 20px;
+}
+
+.vertical-item {
+	vertical-align: middle;
+}
+
+.block {
+	padding-left: 21px;
+	margin-bottom: 23px;
+}
+
+.euphoria {
+	font-weight: 700;
+}
+
+
+/* -----------screen4---------- */
+
+
+
+.jewels {
+	max-width: 1133px;
+	padding: 30px 15px;
+	margin: 0 auto;
+}
+.information {
+	display: inline-block;
+	margin-right: 75px;
+	vertical-align: middle;
+}
+.jewels-sub-title {
+	color: #D58417;
+	font-family: "Cormorant Infant";
+	font-size: 20px;
+	margin-bottom: 27px;
+}
+.jewels-title {
+	color: #000;
+	font-family: "Cormorant Infant";
+	font-size: 64px;
+	text-transform: capitalize;
+	margin-bottom: 31px;
+}
+.jewels-text {
+	color: #606060;
+	font-family: "Cormorant Infant";
+	font-size: 30px;
+	line-height: 1.4;
+}
+.images {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.image1 {
+	margin-left: -187px; 
+	/* margin-bottom: -14px;  */
+}
+
+/* Не можу зрозуміти чому для цього зображення не спрацьовує від'ємний margin-bottom. Доводиться задавати margin-top класу shadow. */
+
+.shadow1 {
+	width: 177px;
+	height: 336px;
+	border: 1px solid #502203;
+	border-radius: 235px;
+	display: inline-block;
+	margin-top: -14px;
+}
+
+.image2 {
+	margin-left: -318px;
+}
+
+.shadow2 {
+	width: 307px;
+	height: 500px;
+	border: 1px solid #502203;
+	border-radius: 235px;
+	display: inline-block;
+	margin-top: -19px;
+}
+
+.image-shadow {
+	display: inline-block;
+	margin-right: 30px;
+	vertical-align: middle;
+}
+
+
+
+
+
+
