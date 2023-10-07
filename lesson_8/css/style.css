@@ -1,0 +1,300 @@
+
+@import url("fonts.css");
+
+
+@import url("reset.css");
+
+
+
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 18px; 
+	color: #7d7d7d;
+}
+
+/* experiment */
+
+.center {
+	padding: 30px 15px;
+	margin: 0 auto;
+	margin: 50px 100px;
+	background: url(../img/projects3.png) 0 center / cover no-repeat;
+}
+
+/* -----------screen1---------- */
+
+
+.business-plan {
+	max-width: 703px;
+	padding: 30px 15px;
+	margin: 0 auto;
+}
+.title-business {
+	margin-bottom: 16px;
+}
+.green {
+	width: 12px;
+	height: 12px;
+	background: #40DDB6;
+	display: inline-block;
+	margin-right: 6px;
+	vertical-align: middle;
+}
+.sub-title {
+	display: inline-block;
+	color: #37393F;
+	font-weight: 500;
+	vertical-align: middle;
+
+}
+.title {
+	color: #37393F;
+	font-family: "Poppins";
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1,21;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+}
+.text {
+	line-height: 1.46;
+	margin-bottom: 20px;
+}
+.text p {
+	margin-bottom: 15px;
+}
+.list {
+	color: #37393F;
+	font-family: "Poppins";
+	font-size: 20px;
+	line-height: 1.65;
+	margin-bottom: 43px;
+}
+.list li {
+	margin-bottom: 23px;
+	background: url(../img/check-mark.svg) 0 3px no-repeat;
+	padding-left: 35px;
+}
+.blocks {
+	margin-bottom: 37px;
+}
+.block1 {
+	display: inline-block;
+	width: 295px;
+	height: 140px;
+	border: 1px solid #E3E3E3;
+	padding: 31px 32px 32px 90px;
+	background: url(../img/icon1.svg) 32px 31px no-repeat; 
+	margin-right: 21px;
+
+}
+.block2 {
+	display: inline-block;
+	width: 295px;
+	height: 140px;
+	border: 1px solid #E3E3E3;
+	padding: 31px 37px 32px 92px;
+	background: url(../img/icon2.svg) 37px 31px no-repeat; 
+}
+.block-text-bold {
+	color: #37393F;
+	font-family: "Poppins";
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.5;
+	margin-bottom: 3px;
+}
+.block-text {
+	font-size: 16px;
+	line-height: 1.35;
+}
+.button {
+	color: #FFF;
+	text-align: center;
+	font-weight: 600;
+	text-transform: capitalize;
+	padding: 21px 27px 22px 27px;
+	background-color: #6B77E5;
+	display: inline-block;
+	line-height: 1.22;
+}
+
+
+/* -----------screen2---------- */
+
+
+.projects {
+	max-width: 1284px;
+	padding: 30px 15px;
+	margin: 0 auto;
+}
+.title-projects {
+	text-align: center;
+	margin-bottom: 14px;
+}
+
+.projects-main-title {
+	color: #37393F;
+	text-align: center;
+	font-family: "Poppins";
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	margin-bottom: 14px;
+}
+.projects-main-text {
+	color: #7D7D7D;
+	text-align: center;
+	line-height: 1.46;
+	margin-bottom: 47px;
+}
+.photos {
+}
+.project-block {
+	display: inline-block;
+	width: 384px;
+	height: 579px;
+	margin-right: 34px;
+	margin-bottom: 58px;
+
+}
+.project-block1 {
+	background: url(../img/projects1.png) no-repeat;
+}
+.project-block2 {
+	background: url(../img/projects2.png) no-repeat;
+}
+.project-block3 {
+	background: url(../img/projects3.png) no-repeat;
+}
+.project-block4 {
+	background: url(../img/projects4.png) no-repeat;
+}
+.project-block5 {
+	background: url(../img/projects5.png) no-repeat;
+}
+.project-block6 {
+	background: url(../img/projects6.png) no-repeat;
+}
+.calendar {
+
+}
+.projects-bold-text {
+	color: #37393F;
+	font-family: "Poppins";
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	padding-top: 525px;
+	margin-bottom: 15px;
+}
+.projects-text {
+	font-size: 14px;
+	line-height: 1.46;
+	display: inline-block;
+	background: url(../img/calendar.svg) no-repeat;
+	padding-left: 25px;
+}
+
+
+
+/* -----------screen3---------- */
+
+
+.clothing {
+	max-width: 1270px;
+	padding: 30px 15px;
+	margin: 0 auto;
+}
+
+
+
+.clothing-title {
+	color: #3C4242;
+	font-family: "Core Sans C";
+	font-size: 28px;
+	line-height: 1.2; 
+	letter-spacing: 0.56px;
+	margin-bottom: 30px;
+	padding-left: 21px;
+	background: url(../img/purple.png) 0 1.5px no-repeat;
+}
+
+
+.clothing-sub-title {
+	color: #807D7E;
+	font-family: "Core Sans C";
+	font-size: 20px;
+	line-height: 1.67; 
+	letter-spacing: 0.4px;
+	margin-bottom: 25px;
+}
+.clothing-text {
+	color: #807D7E;
+	font-family: "Causten";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.67; 
+	letter-spacing: 0.4px;
+	margin-bottom: 20px;
+}
+
+.vertical-item {
+	vertical-align: middle;
+}
+
+.clothing-block {
+	padding-left: 21px;
+	margin-bottom: 23px;
+}
+
+.euphoria {
+	font-weight: 700;
+}
+
+/* -----------screen4---------- */
+
+.fashion {
+	padding: 30px 15px;
+	margin: 0 auto;
+	max-width: 1470px;
+}
+.fashion-block {
+	background: url(../img/fashion1.png) no-repeat,
+					url(../img/fashion2.png) right no-repeat;
+	height: 640px;
+	max-width: 1240px;
+	margin: 0 auto;
+}
+.text-block {
+	padding-left: 74px;
+	padding-top:  183px;
+}
+.fashion-title {
+	color: #FFF;
+	font-family: "Core Sans C";
+	font-size: 34px;
+	font-weight: 800;
+	line-height: 1.47;
+	letter-spacing: 0.208px;
+	margin-bottom: 30px;
+}
+.fashion-text {
+	color: #FFF;
+	font-family: "Causten";
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin-bottom: 50px;
+}
+
+.fashion-button {
+	color: #3C4242;
+	text-align: center;
+	font-family: "Causten";
+	font-weight: 600;
+	padding: 12px 44px;
+	background-color: #FFF;
+	border-radius: 8px;
+}
