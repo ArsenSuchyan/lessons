@@ -1,0 +1,480 @@
+
+@import url("fonts.css");
+
+
+@import url("reset.css");
+
+
+
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 18px; 
+	color: #7d7d7d;
+}
+
+/* -----------game---------- */
+
+.game {
+	max-width: 1300px;
+	padding: 30px 15px;
+	margin: 0 auto;
+}
+
+.start {
+	width: 140px;
+	height: 100px;
+	background-color: green;
+	display: inline-block;
+	vertical-align: top;
+	color: red;
+	font-size: 50px;
+	padding-top: 20px;
+	padding-left: 10px;
+
+}
+.green-line {
+	width: 850px;
+	height: 100px;
+	background-color: green;
+	display: inline-block;
+	visibility: hidden;
+	
+}
+
+.yellow-line {
+	width: 75px;
+	height: 400px;
+	background-color: yellow;
+	margin-left: 925px;
+	display: inline-block;
+	margin-top: -5px;
+	visibility: hidden;
+}
+
+.orange-line {
+	width: 925px;
+	height: 50px;
+	background-color: orange;
+	display: inline-block;
+	margin-top: -50px;
+	vertical-align: top;
+	visibility: hidden;
+}
+.red-line {
+	width: 25px;
+	height: 400px;
+	background-color: red;
+	display: inline-block;
+	margin-bottom: -3px;
+	margin-left: -920px;
+	visibility: hidden;
+}
+
+.finish {
+	width: 300px;
+	height: 200px;
+	border: 3px solid red;
+	font-size: 50px;
+	color: red;
+	padding: 70px 0 0 80px;
+	display: block;
+	visibility: hidden;
+}
+
+.start:hover ~ .green-line,
+.green-line:hover {
+	visibility: visible;
+}
+
+.green-line:hover ~ .yellow-line,
+.yellow-line:hover {
+	visibility: visible;
+}
+
+.yellow-line:hover ~ .orange-line,
+.orange-line:hover {
+	visibility: visible;
+}
+
+.orange-line:hover ~ .red-line,
+.red-line:hover {
+	visibility: visible;
+}
+
+
+
+.red-line:hover ~ .finish,
+.finish:hover {
+	visibility: visible;
+}
+
+
+
+/* -----------screen1---------- */
+
+
+.why-us {
+	max-width: 722px;
+	padding: 30px 15px;
+	margin: 0 auto;
+}
+.why-us-block {
+ 	margin-bottom: 40px;
+}
+.why-us-title {
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.27;
+}
+.why-us-text {
+	line-height: 1.46;
+}
+.why-us-subtitle {
+	color: #6B77E5;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+}
+
+.why-us-block .why-us-title {
+	margin-bottom: 15px;
+	text-transform: capitalize;
+}
+.why-us-block .why-us-text {
+	margin-bottom: 42px;
+}
+.why-us-block .why-us-text p:not(:last-child) {
+	margin-bottom: 15px;
+}
+.why-us-block .why-us-subtitle {
+	margin-bottom: 12px;
+}
+.why-us-block > *:last-child {
+	margin-bottom: 0;
+}
+
+
+.benefits {
+	margin-bottom: 50px;
+}
+.benefits .why-us-title {
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.benefits .why-us-subtitle {
+	color: #40DDB6;
+	max-width: 332px;
+	margin-bottom: 21px;
+}
+.benefits-information .why-us-text {
+	line-height: normal;
+	margin-bottom: 15px;
+}
+.benefits-information .why-us-text li::before {
+	content: "";
+	display: inline-block;
+	background: url(../img/mark.svg);
+	width: 27px;
+	height: 27px;
+	margin-right: 8px;
+}
+.benefits-information .why-us-text li:not(:last-child){
+	margin-bottom: 30px;
+}
+.benefits-image {
+	margin-right: 29px;
+}
+.benefits-information {
+	display: inline-block;
+}
+.benefits-information > *:last-child {
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+
+
+.questions > *:last-child{
+	margin-bottom: 0;
+}
+.questions .why-us-title {
+	margin-bottom: 15px;
+	text-transform: capitalize;
+}
+.questions .why-us-text {
+	margin-bottom: 15px;
+}
+
+
+/* -----------screen2---------- */
+
+
+.business-plan {
+	max-width: 705px;
+	padding: 30px 15px 0 15px;
+	margin: 0 auto;
+	margin-bottom: 190px;
+}
+.business-plan > *:not(:last-child) {
+	margin-bottom: 48px;
+}
+.business-plan-subtitle {
+	color: #37393F;
+	font-weight: 500;
+	margin-bottom: 16px;
+	text-transform: capitalize;
+}
+.business-plan-subtitle::before {
+	content: "";
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+	background: #40DDB6;
+	margin-right: 6px;
+}
+.business-plan-title {
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21; 
+	text-transform: capitalize;
+	margin-bottom: 10px;
+}
+.business-plan-text {
+	line-height: 1.46;
+}
+.business-plan-text p:not(:last-child) {
+	margin-bottom: 16px;
+}
+.business-plan-blocks {
+
+}
+.block {
+	padding: 28px 41px 28px 38px;
+	border: 1px solid #E3E3E3;
+}
+.block:not(:last-child) {
+	margin-bottom: 31px;
+}
+.block-title {
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 12px;
+}
+.block-title::before {
+	content: "";
+	display: inline-block;
+	height: 27px;
+	width: 27px;
+	margin-right: 19px;
+	background: url(../img/mark.svg);
+}
+.block-text {
+	line-height: 1.46;
+	margin-left: 46px;
+}
+.block {
+}
+.button {
+	color: #FFF;
+	text-align: center;
+	font-weight: 600;
+	text-transform: capitalize;
+	padding: 21px 35px 22px 35px;
+	background-color: #6B77E5;
+	display: inline-block;
+}
+.button:hover {
+	background-color: #2b3de1;
+}
+
+/* -----------screen3---------- */
+
+
+.work-process {
+	max-width: 1250px;
+	padding: 5px 15px;
+	margin: 0 auto;
+}
+.work-process-subtitle {
+	color: #37393F;
+	font-weight: 500;
+	text-align: center;
+	text-transform: capitalize;
+	margin-bottom: 16px;
+}
+.work-process-subtitle::before {
+	content: "";
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+	background: #40DDB6;
+	margin-right: 6px;
+}
+.work-process-title {
+	color: #37393F;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	text-transform: capitalize;
+	margin-bottom: 80px;
+}
+.work-process-blocks >*:not(:last-child) {
+	margin-right: 31px;
+}
+
+.work-process-block {
+	padding: 22px 43px 58px 43px;
+	display: inline-block;
+	background: #F4F4F4;
+	text-align: center;
+	width: 386px;
+}
+.work-process-block :not(:last-child) {
+	
+}
+.work-process-block > *:last-child{
+	margin-bottom: 0;
+}
+.work-process-block-image {
+	margin-left: 50px;
+}
+.work-process-block1::before {
+	content: "";
+	display: inline-block;
+	width: 72px;
+	height: 72px;
+	background: url(../img/how-we-work1.svg);
+	margin-top: -58px;  
+}
+.work-process-block2::before {
+	 content: "";
+	display: inline-block;
+	 width: 72px;
+	height: 72px;
+	background: url(../img/how-we-work2.svg); 
+	margin-top: -58px;  
+}
+.work-process-block3::before{
+	content: "";
+	display: inline-block;
+	width: 72px;
+	height: 72px;
+	background: url(../img/how-we-work3.svg);
+	margin-top: -58px;  
+}
+.work-process-block-title {
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 1.27;
+	text-transform: capitalize;
+	margin-bottom: 16px;
+	text-align: center;
+	margin-top: 10px;
+}
+.work-process-block-text {
+	line-height: 1.46;
+	max-width: 300px;
+	margin-bottom: 37px;
+	text-align: center;
+}
+.work-process-block-link {
+	color: #6B77E5;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin-bottom: 16px;
+	text-align: center;
+}
+
+.work-process-block-link:hover {
+	text-decoration: underline;
+}
+
+/* -----------screen4---------- */
+
+.jewels {
+	max-width: 1260px;
+	padding: 30px 15px;
+	margin: 0 auto;
+}
+.jewels-title {
+	color: #000;
+	font-family: Cormorant Infant;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 1.15;
+	max-width: 488px;
+	display: inline-block;
+	margin-top: 118px;
+	margin-right: 23px;
+	vertical-align: top;
+}
+.jewels-title:after{
+	content: "";
+	display: block;
+	width: 62%;
+	height: 3px;
+	background: #78473B;
+	margin-top: 10px;
+}
+.jewels-photos {
+	display: inline-block;
+	vertical-align: top;
+}
+.jewels-photos> *:not(:last-child) {
+	margin-right: 45px;
+}
+
+.jewels-photo-block {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.jewels-photo {
+	border: 1px solid #000;
+	display: inline-block;
+	max-width: 334px;
+	max-height: 381px;
+	margin-bottom: 34px;
+}
+
+.jewels-image {
+	margin-top: 9px;
+	margin-left: 10px;
+	
+}
+.jewels-information {
+	color: #000;
+	font-family: Cormorant Infant;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1.4;
+	max-width: 232px;
+}
+
+.jewels-photo-block1 {
+	margin-top: 22px;
+
+}
+.jewels-photo-block2 {
+}
+.jewels-nomber {
+	color: #000;
+	font-family: Cormorant Infant;
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 1.13;
+	max-width: 339px;
+	margin-bottom: 31px;
+}
