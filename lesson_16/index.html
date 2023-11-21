@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Lesson 16</title>
+	</head>
+	<body>
+		
+
+		<div class="wrapper">
+			<header class="header"></header>
+			<main class="page">
+				<div class="page__container">
+					<div class="call-back call-back--margin">
+						<div class="call-back__header">
+							<h5 class="call-back__label">Contact Us</h5>
+							<h2 class="call-back__title">Request A Call Back !</h2>
+						</div>
+						<form action="#" class="call-back__form form" method="GET" enctype="multipart/form-data">
+							<div class="form__main-form">
+								<div class="form__user-information">
+									<input type="text" class="form__item" placeholder="Your Name" name="name">
+									<input type="email" class="form__item" placeholder="Email Address" name="mail">
+									<input type="tel" class="form__item" placeholder="Phone Number" name="number">
+									<input type="text" class="form__item" placeholder="Subject" name="subject">
+								</div>
+								<textarea name="message" class="form__message" placeholder="Message..."></textarea>
+							</div>
+							<button class="form__button" type="submit">Submit</button>
+						</form>
+					</div>
+
+					<div class="check-out check-out--margin">
+						<h2 class="check-out__title">Check Out</h2>
+						<form action="#" class="check-out__billing billing" method="GET" enctype="multipart/form-data">
+							<h3 class="billing__title">Billing Details</h3>
+							<div class="billing__main">
+								<div class="billing__form">
+									<div class="billing__information information">
+										<div class="information__item">
+											<label for="first-name" class="information__label">First Name*</label>
+											<input class="information__input-field" type="text" placeholder="First Name" name="first-name" id="first-name" required>
+										</div>
+										<div class="information__item">
+											<label for="last-name" class="information__label">Last Name*</label>
+											<input class="information__input-field" type="text" placeholder="Last Name" name="last-name" id="last-name" required>
+										</div>
+										<div class="information__item">
+											<label for="country" class="information__label">Country / Region*</label>
+											<input class="information__input-field" type="text" placeholder="Country / Region" name="country" id="country" required>
+										</div>
+										<div class="information__item">
+											<label for="company" class="information__label">Company Name</label>
+											<input class="information__input-field" type="text" placeholder="Company (optional)" name="company" id="company">
+										</div>
+										<div class="information__item">
+											<label for="street" class="information__label">Street Address*</label>
+											<input class="information__input-field" type="text" placeholder="House number and street name" name="street" id="street" required>
+										</div>
+										<div class="information__item">
+											<label for="address-details" class="information__label">Apt, suite, unit</label>
+											<input class="information__input-field" type="text" placeholder="apartment, suite, unit, etc. (optional)" name="address-details" id="address-details">
+										</div>
+									</div>
+									<div class="billing__address address-billing">
+										<div class="address-billing__item">
+											<label class="address-billing__label" for="city">City*</label>
+											<input class="address-billing__input-field" placeholder="Town / City" name="city" id="city" required>
+										</div>
+										<div class="address-billing__item">
+											<label class="address-billing__label" for="state">State*</label>
+											<div class="address-billing__input-field address-billing__input-field--select">
+												<select class="address-billing__input-field-select" name="state" id="state" required>
+													<option value="" class="address-billing__option">State</option>
+													<option value="Nagaland" class="address-billing__option">Nagaland</option>
+													<option value="Uttar Pradesh" class="address-billing__option">Uttar Pradesh</option>
+													<option value="Rajasthan" class="address-billing__option">Rajasthan</option>
+													<option value="Assam" class="address-billing__option">Assam</option>
+													<option value="Madhya Pradesh" class="address-billing__option">Madhya Pradesh</option>
+													<option value="West Bengal" class="address-billing__option">West Bengal</option>
+												</select>
+											</div>
+										</div>
+										<div class="address-billing__item">
+											<label class="address-billing__label" for="post">Postal Code*</label>
+											<input class="address-billing__input-field" type="text" placeholder="Postal Code" name="post" id="post" required>
+										</div>
+									</div>
+									<div class="billing__phone phone-billing">
+										<label class="phone-billing__label" for="phone">Phone*</label>
+										<input class="phone-billing__input-field" type="tel" placeholder="Phone" name="phone" id="phone" required>
+									</div>
+								</div>
+								<button class="billing__button" type="submit">Continue to delivery</button>
+								<div class="billing__adition adition">
+									<input class="adition__checkbox" type="checkbox" name="save" id="save">
+									<label for="save" class="adition__label">Save my information for a faster checkout</label>
+								</div>
+							</div>
+						</form>
+
+
+						<form action="#" class="check-out__payment payment" method="GET" enctype="multipart/form-data">
+							<div class="payment__form">
+								<div class="payment__shipping-address shipping-address">
+									<div class="shipping-address__head">
+										<h4 class="shipping-address__title">Shipping Address</h4>
+										<div class="shipping-address__label">Select the address that matches your card or payment method.</div>
+									</div>
+									<div class="shipping-address__radio-wrapper">
+										<div class="shipping-address__radio">
+												<div class="shipping-address__radio-item">
+													<input class="shipping-address__radio-button" type="radio" name="shipping-address" value="same" id="same" checked>
+													<label class="shipping-address__button-label" for="same">Same as Billing address</label>
+												</div>
+												<div class="shipping-address__radio-item">
+													<input class="shipping-address__radio-button" type="radio" name="shipping-address" value="different" id="different">
+													<label class="shipping-address__button-label" for="different">Use a different shipping address</label>
+												</div>
+										</div>
+									</div>	
+								</div>
+	
+								<div class="payment__shipping-method shipping-method">
+									<h4 class="shipping-method__title">Shipping Method</h4>
+									<div class="shipping-method__information-wrapper">
+										<div class="shipping-method__information">
+											<div class="shipping-method__arrive-date">Arrives by Monday, June 7</div>
+											<div class="shipping-method__price">
+												<div class="shipping-method__information-price">
+													<div class="shipping-method__title-price">Delivery Charges</div>
+													<div class="shipping-method__label-price">Additional fess may apply</div>
+												</div>
+												<div class="shipping-method__amount-price">$5.00</div>
+											</div>
+										</div>
+									</div>
+								</div>
+	
+								<div class="payment__payment-method method-payment">
+									<div class="method-payment__head">
+										<h4 class="method-payment__title">Payment Method</h4>
+										<div class="method-payment__label">All transactions are secure and encrypted.</div>
+									</div>
+									<div class="method-payment__radio-wrapper">
+										<div class="method-payment__radio">
+											<div class="method-payment__radio-item method-payment__radio-item--big">
+												<input class="method-payment__radio-button method-payment__radio-button--big" type="radio" name="method-payment" value="credit-card" id="credit-card" checked>
+												<div class="method-payment__button-label" >
+													<div class="method-payment__content-button-label">
+														<label class="method-payment__label-name" for="credit-card">Credit Card</label>
+														<div class="method-payment__label-label">We accept all major credit cards.</div>
+														<div class="method-payment__additional-settings additional-settings">
+															<div class="additional-settings__variations">
+																<img src="img/g-pay.svg" alt="g-pay" class="additional-settings__image">
+																<img src="img/visa.svg" alt="visa" class="additional-settings__image">
+																<img src="img/pay-pal.svg" alt="PayPal" class="additional-settings__image">
+																<img src="img/pay-pass.svg" alt="pay-pass" class="additional-settings__image">													
+															</div>
+															<div class="additional-settings__card-validation">
+																<input class="additional-settings__item" type="text" placeholder="Card number" name="card-number">
+																<input class="additional-settings__item" type="text" placeholder="Name of card" name="card-name">
+																<input class="additional-settings__item" type="text" placeholder="Expiration date (MM/YY)" name="exp-date">
+																<div class="additional-settings__item additional-settings__item--hidden">
+																	<input class="additional-settings__input-area" type="password" placeholder="Security Code" name="SVV-code">
+																	<img src="img/eye.svg" alt="reveal" class="additional-settings__eye">
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="method-payment__radio-item">
+												<input class="method-payment__radio-button" type="radio" name="method-payment" value="cash" id="cash">
+												<div class="method-payment__button-label" >
+													<div class="method-payment__content-button-label">
+														<label class="method-payment__label-name" for="cash">Cash on delivery</label>
+														<div class="method-payment__label-label">Pay with cash upon delivery.</div>
+													</div>
+												</div>
+											</div>
+											<div class="method-payment__radio-item">
+												<input class="method-payment__radio-button method-payment__radio-button--single" type="radio" name="method-payment" value="paypol" id="paypol">
+												<label class="method-payment__button-label method-payment__button-label--single" for="paypol">Paypol</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<button class="payment__button" type="submit">Pay Now</button>
+						</form>
+					</div>
+				</div>
+			</main>
+			<footer class="footer"></footer>
+		</div>
+
+			
+		
+	</body>
+</html>
