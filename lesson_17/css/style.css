@@ -1,0 +1,492 @@
+
+@import url("fonts.css");
+
+
+@import url("reset.css");
+
+
+
+
+
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.page {
+	flex-grow: 1;
+}
+
+
+
+.grand-collection {
+	position: relative;
+	padding: 50px 0;
+	background-color: #FEFAF4;;
+}
+.grand-collection--margin {
+	/* margin-bottom: 50px; */
+}
+.grand-collection__container {
+	max-width: 1197px;
+	padding: 0 15px;
+	margin: 0 auto;
+	z-index: 5;
+	position: relative;
+}
+.grand-collection__head { 
+	margin-bottom: 53px;
+}
+.grand-collection__head > *:not(:last-child) {
+	margin-bottom: 27px;
+}
+.grand-collection__title {
+	color: #000;
+	font-family: DM Serif Text;
+	font-size: 58px;
+}
+.grand-collection__label {
+	color: #606060;
+	font-family: Inter;
+	font-size: 20px;
+	line-height: 1.8; 
+}
+.grand-collection__body {
+	margin: 0 -24px;
+
+}
+.engagement-rings {
+	display: flex;
+	/* flex-wrap: wrap; */
+	row-gap: 48px;
+}
+.engagement-rings__item {
+	flex: 0 1 33.333333%;
+	padding: 0 24px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	/* min-height: 100%; */
+
+}
+.engagement-rings__info {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	justify-content: space-between;
+	flex-grow: 1;
+}
+.engagement-rings__main-info {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+.engagement-rings__link {
+	transition: 0.3s;
+}
+
+
+.engagement-rings__image {
+	width: 100%;
+	height: 100%;
+	aspect-ratio: 357 / 240;
+	object-fit: cover;
+}
+.engagement-rings__name {
+	color: #000;
+	font-family: DM Serif Text;
+	font-size: 24px;
+	line-height: 1.2;
+	
+}
+.engagement-rings__text {
+	color: #000;
+	font-family: Inter;
+	font-size: 16px;
+	line-height: 1.6;
+	/* max-width: 357px; */
+}
+.engagement-rings__more-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.engagement-rings__read-more {
+	color: #F55529;
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 1.5; 
+}
+.engagement-rings__button {
+	transition: 0.3s;
+}
+.engagement-rings__arrow {
+}
+.grand-collection__decor {
+	position: absolute;
+	/* transform: rotate(-149.983deg); */
+	bottom: -100px;
+	right: 0;
+	z-index: 1;
+}
+
+
+
+@media (max-width: 1420px) {
+	.grand-collection__decor {
+		display: none;
+	}
+}
+
+@media (max-width: 738px) {
+	.engagement-rings {
+		flex-direction: column;
+	}
+
+	.engagement-rings__link--item1 {
+		order: 2;
+	}
+
+	.grand-collection__head { 
+		margin-bottom: 30px;
+	}
+
+	.grand-collection {
+		padding: 25px 0;
+	}
+
+}
+
+@media (max-width: 371px) {
+	.grand-collection__title {
+		font-size: 48px;
+	}
+
+	.grand-collection {
+		padding: 10px 0 25px 0;
+	}
+
+}
+
+
+@media (any-hover: hover) {
+	.engagement-rings__read-more:hover {
+		text-decoration: underline;
+	}
+
+	.engagement-rings__button:hover {
+		transform: scale(1.2);
+	}
+
+	.engagement-rings__link:hover {
+		transform: scale(1.1);
+	}
+
+}
+
+
+/* ------------------------------------------------------------------- */
+
+
+
+.jewerly-design {
+	padding: 50px 0;
+}
+.jewerly-design--margin {
+	/* margin-bottom: 50px; */
+}
+.jewerly-design__container {
+	max-width: 1203px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.jewerly-design__head {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 27px;
+	margin-bottom: 62px;
+}
+.jewerly-design__title {
+	color: #291403;
+	font-family: DM Serif Text;
+	font-size: 58px;
+}
+.jewerly-design__label {
+	color: #818181;
+	font-family: Cormorant Infant;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.4; 
+}
+.jewerly-design__body {
+}
+.popular-product {
+	display: flex;
+	flex-direction: column;
+	gap: 76px;
+	align-items: center;
+}
+.popular-product__products {
+	display: flex;
+	margin: 0 -15px;
+	/* flex-wrap: wrap; */
+}
+.popular-product__item {
+	flex: 0 1 25%;
+	padding: 0 15px;
+	display: flex;
+	flex-direction: column;
+	gap: 17px;
+	/* min-height: 100%; */
+}
+.popular-product__link {
+	transition: 0.3s;
+}
+.popular-product__image {
+	width: 100%;
+	height: 100%;
+	aspect-ratio: 271 / 270;
+	object-fit: contain;
+
+}
+.popular-product__info {
+	color: #000;
+	font-family: Cormorant Infant;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1.4;
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	flex-grow: 1;
+	justify-content: space-between;
+}
+.popular-product__name-item {
+
+}
+.popular-product__price-item {
+}
+.popular-product__button {
+	color: #FFF;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.875;
+	padding: 12px 42.5px; 
+	background-color: #FF7A49;
+	transition: 0.3s;
+}
+
+
+@media (any-hover: hover) {
+	.popular-product__button:hover {
+		/* text-decoration: underline; */
+		background-color: #fd5417;
+		transform: scale(1.1);
+	}
+
+	.popular-product__link:hover {
+		transform: scale(1.2);
+	}
+
+}
+
+@media (max-width: 764px) {
+
+	.popular-product__products {
+		flex-wrap: wrap;
+		row-gap: 30px;
+	}
+
+	.popular-product__item {
+		flex: 0 1 50%;
+	}
+
+	.popular-product__link--first {
+		order: 2;
+	}
+	.jewerly-design {
+		padding: 25px 0;
+	}
+
+}
+
+
+@media (max-width: 565px) {
+	.popular-product__item {
+		flex: 0 1 100%;
+	}
+	.popular-product {
+		gap: 46px;
+	}
+	
+}
+
+@media (max-width: 371px) {
+	.jewerly-design__title {
+		font-size: 48px;
+	}
+	.jewerly-design__label {
+		font-size: 25px;
+	}
+	.jewerly-design__head {
+		margin-bottom: 32px;
+	}
+	
+}
+
+
+
+
+/* ---------------------------------------------------------- */
+
+
+
+
+.pretty-stones {
+	background-color: #0E333D;
+	color: #FFF;
+	padding: 94px 0;
+}
+.pretty-stones--margin {
+	/* margin-bottom: 50px; */
+}
+.pretty-stones__container {
+	max-width: 1203px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.pretty-stones__head {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 23px;
+	margin-bottom: 34px;
+}
+.pretty-stones__title {
+	font-family: DM Serif Text;
+	font-size: 48px;
+	line-height: 1.27; 
+}
+.pretty-stones__label {
+	color: #EBEBEB;
+	font-family: Raleway;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.27; 
+}
+.pretty-stones__body {
+}
+.our-products {
+	display: flex;
+	flex-direction: column;
+	gap: 77px;
+	align-items: center;
+}
+.our-products__menu {
+	display: flex;
+	gap: 41px;
+	padding: 0 5px;
+}
+.our-products__item-menu {
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.27;
+	/* cursor: pointer; */
+}
+.our-products__item-menu {
+}
+.our-products__button {
+}
+.our-products__button:focus {
+	text-decoration: underline;
+}
+.our-products__products {
+	display: flex;
+	margin: 0 -15px;
+}
+.our-products__item {
+	flex: 0 1 25%;
+	padding: 0 15px;
+	display: flex;
+	flex-direction: column;
+	gap: 17px;
+}
+.our-products__link {
+	transition: 0.3s;
+}
+.our-products__image {
+	width: 100%;
+	height: 100%;
+	aspect-ratio: 271 / 270;
+	object-fit: cover;
+}
+.our-products__info {
+	font-family: Cormorant Infant;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1.4; 
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	flex-grow: 1;
+	justify-content: space-between;
+}
+.our-products__name {
+}
+.our-products__price {
+}
+
+@media (any-hover: hover) {
+	.our-products__button:hover {
+		text-decoration: underline;
+	}
+
+	.our-products__link:hover {
+		transform: scale(1.1);
+	}
+}
+
+
+@media (max-width: 764px) {
+
+	.our-products__products {
+		flex-wrap: wrap;
+		row-gap: 30px;
+	}
+
+	.our-products__item {
+		flex: 0 1 50%;
+	}
+
+	.our-products__link--first {
+		order: 2;
+	}
+}
+
+
+@media (max-width: 565px) {
+	.our-products__item {
+		flex: 0 1 100%;
+	}
+	.our-products {
+		gap: 46px;
+	}
+	.pretty-stones {
+		padding: 50px 0;
+	}
+	
+}
+
+@media (max-width: 378px) {
+	.our-products__menu {
+		gap: 20px;
+	}
+}
+
