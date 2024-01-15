@@ -1,0 +1,42 @@
+@use "sass:math";
+
+@import "_reset.scss";
+
+@import "_fonts.scss";
+
+@import "_functions.scss";
+
+// Мінімальна ширина сторінки
+$minWidth: 320;
+// Ширина полотна (макету)
+$maxWidth: 1920;
+// Ширина обмежуючого контейнера (0 = немає обмеження)
+$maxWidthContainer: 1170;
+// Загальний відступ у контейнера
+// (30 = по 15px ліворуч і праворуч, 0 = немає відступу)
+$containerPadding: 30;
+// Ширина спрацьовування першого брейкпоінту
+$containerWidth: $maxWidthContainer + $containerPadding;
+
+
+body {
+   padding: toRem(30)  toRem(30);
+}
+
+.button {
+   background-color: black;
+   border-radius: toRem(2);
+   padding: toRem(10)  toRem(10);
+   color: white;
+}
+
+.link{
+   text-decoration: underline;
+   font-size: toRem(30);
+   padding-bottom: toRem(30);
+}
+
+
+
+
+
